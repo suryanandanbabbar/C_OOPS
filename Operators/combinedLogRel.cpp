@@ -6,7 +6,7 @@ int main()
     int b = 23;
     int c = 34;
 
-    std::cout << std::boolalpha; // true/
+    std::cout << std::boolalpha; // true/false instead of 1/0
 
     std::cout << "((a > b) && (a > c)): " << ((a > b) && (a > c)) << std::endl;      // true
     std::cout << "((a == b) || ( b >= c)): " << ((a == b) || (a <= b)) << std::endl; // false
