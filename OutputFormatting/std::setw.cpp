@@ -19,4 +19,10 @@ int main()
     std::cout << std::setw(10) << "Brad " << std::setw(10) << " Scot" << std::setw(5) << " 27" << std::endl;
     std::cout << std::setw(10) << "Tom " << std::setw(10) << " Hill" << std::setw(5) << " 34" << std::endl;
     std::cout << std::setw(10) << "Steve " << std::setw(10) << " Trevor" << std::setw(5) << " 17" << std::endl;
+
+    // Internal Justified: sign is left justified, data is right justified
+    std::cout << "Internal Justified" << std::endl;
+    std::cout << std::right;
+    std::cout << std::internal;
+    std::cout << std::setw(10) << -123.45 << std::endl; // -  123.45
 }
