@@ -1,5 +1,6 @@
 #include <iostream>
-#include <cmath>
+#include <constants.h>
+
 
 class Cylinder
 {
@@ -22,7 +23,8 @@ public:
     // Method (Function)
     double volume()
     {
-        return M_PI * base_radius * base_radius * height;
+        // Here "PI" comes from <constants.h> file
+        return PI * base_radius * base_radius * height;
     }
 };
 
